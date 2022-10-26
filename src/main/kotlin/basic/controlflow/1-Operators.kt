@@ -69,6 +69,7 @@ fun main(args: Array<String>) {
 
     var a = 20
     var b = 5
+
     a += b
     println("a+=b :" + a)
     a -= b
@@ -93,6 +94,7 @@ fun main(args: Array<String>) {
     var numbOne = 10
     var numbTwo = 5
     var flag = true
+
     println("+a :" + +numbOne)
     println("q-b :" + -numbTwo)
     println("++a :" + ++numbOne)
@@ -116,6 +118,7 @@ fun main(args: Array<String>) {
      *      === ifadesi isaret edilen referans tipleri karsilatirir.
      *      ==  ifadesi degeri karsilastirir.
      *      =   ifadesi deger atamasi yapar.
+     *
      */
 
 }
