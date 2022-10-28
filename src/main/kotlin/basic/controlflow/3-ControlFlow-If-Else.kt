@@ -42,6 +42,7 @@ fun main() {
      *   Kotlin'de if else'lerin Expression kullanimindan oturu ternary operatoru yoktur.
      *   Ternary yerine asagidaki gibi kullanim yapabilirsiniz.
      * **/
+
     val isStudent = false
     val isStudent2 = if (isStudent) {"true"} else {"false"}
 //    String name2 = isStudent ? "true" : "false" ternary operator
@@ -81,6 +82,7 @@ fun main() {
      *   2 farkli tipteki number degiskenler karsilastirilirken equals fonksiyonu once tiplerini karsilastirdigi icin
      *   eger tipler uyusmuyorsa, ide hata verecektir.
      * **/
+
 //    if(10 == 10L){    // Calismaz. Comment'i kaldir kontrol et istersen keko
 //
 //    }
@@ -97,9 +99,10 @@ fun main() {
 
     /**
      *   Birden fazla sartli durumunuz varsa bunlarin her birini, asagidaki gibi, ayri ayri if seklinde yazmak
-     *   if else seklinde yazmaktan daha kotu performans almaniza yol acar. Zira if else durumlarinda dogru case
-     *   bulunursa, diger case'ler kontrol edilmez. Ancak asagidaki durumda dogru case bulunsa bile tum case'ler
-     *   kontrol edilir.
+     *   if else seklinde yazmaktan daha kotu performans almaniza yol acar.
+     *   Zira if else durumlarinda dogru case bulunursa, diger case'ler kontrol edilmez.
+     *   Ancak asagidaki durumda dogru case bulunsa bile tum case'ler kontrol edilir.
+     *
      * **/
     if (grade <= 100) {
 
@@ -132,10 +135,11 @@ fun main() {
 
 
     /**
-     *   Bazi durumlarda if else yazmaktansa, if case'ini yazip return ya da throw gibi kodun devam etmesini bozacak
-     *   ifadelerle kodu sonlandirabilirsiniz. Kod calisirken bu if case'ine girmezse devam eden kod blogu calisir ki
-     *   bu da pratikte else case'i demek olur. Bu sekilde yazim kodu biraz daha temiz gosterecektir.
+     *   Bazi durumlarda if else yazmaktansa, if case'ini yazip return ya da throw gibi kodun devam etmesini bozacak ifadelerle kodu sonlandirabilirsiniz.
+     *   Kod calisirken bu if case'ine girmezse devam eden kod blogu calisir ki bu da pratikte else case'i demek olur.
+     *   Bu sekilde yazim kodu biraz daha temiz gosterecektir.
      * **/
+
     if (isStudent) {
         println("Student")
     } else {
