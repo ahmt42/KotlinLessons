@@ -1,4 +1,4 @@
-package basic.controlflow
+package basics.controlflow
 
 fun main(args: Array<String>) {
 
