@@ -1,4 +1,4 @@
-package basics.controlflow
+package p2_basics.controlflow
 
 data class PairNumber(val numberOne: Int, val numberTwo: Int) {
 

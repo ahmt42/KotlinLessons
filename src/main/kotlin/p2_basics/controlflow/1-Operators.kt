@@ -1,4 +1,4 @@
-package basics.controlflow
+package p2_basics.controlflow
 
 fun main(args: Array<String>) {
 
