@@ -43,7 +43,7 @@ fun main() {
      * **/
 
     repeat(10) {
-        print("\nDaha çok blog yazmam lazım!")
+        print("\n$it. Daha çok blog yazmam lazım!")
     }
 
 
