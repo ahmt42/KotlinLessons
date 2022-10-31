@@ -24,7 +24,7 @@ fun main() {
     }
 
     for ((index, value) in countryCodeArray.withIndex()) {
-        print("\n$index . değeri : $value ")
+        print("\n$index . değer : $value ")
     }
 
     /*
@@ -55,37 +55,48 @@ fun main() {
      *    continue kullanarak ilgili sart saglanirsa, donguye o degeri atlayarak devam edebilirsiniz.
      * **/
 
+    print("\n\n")
+
     for (value in 1..50) {
         if (value % 2 == 1) {
             continue
         }
-        print("\n$value")
+        print("$value  ")
     }
+
+    print("\n\n")
 
     for (value in 1..50) {
-        if (value % 2 == 1) {
+        if (value % 19 == 0) {
             break
         }
-        print("\n$value")
+        print("$value  ")
     }
 
+    print("\n\n")
+
+
     /**
-     *      Iç içe for donguleri kullaniyorsak bir ustteki for'a degil de iki ustteki uc ustteki for'a donmek istiyorsak
-     *      label kullanabiliriz. bunun icin labelname@ ifadesini ilgili for'un onune yazip, return ya da continue yapacagimiz
-     *      yere ise @labelname seklinde yazmamiz yeterlidir.
+     *      Iç içe for donguleri kullaniyorsak bir ustteki for'a degil de iki ustteki uc ustteki for'a donmek istiyorsak label kullanabiliriz.
+     *      bunun icin labelname@ ifadesini ilgili for'un onune yazip,
+     *      return ya da continue yapacagimiz yere ise @labelname seklinde yazmamiz yeterlidir.
      * **/
+
+    print("\ncontinue1 :\n")
 
     for (value in 1..50) {
         for (value2 in 0..10) {
-            if (value2 == 5) {
+            if (value2 % 5 == 0) {
                 continue
             }
 
-            print("continue1 : $value2 | ")
+            print("$value:$value2  ")
         }
     }
 
-    println("")
+    print("\n\n")
+
+    print("\ncontinue2 :\n")
 
     returnLabel@ for (value in 1..50) {
         for (value2 in 0..10) {
@@ -93,11 +104,13 @@ fun main() {
                 continue@returnLabel
             }
 
-            print("continue2 : $value2 | ")
+            print("$value:$value2  ")
         }
     }
 
-    println("")
+    print("\n\n")
+
+    print("\nbreak1 :\n")
 
     for (value in 1..50) {
         for (value2 in 0..10) {
@@ -105,19 +118,21 @@ fun main() {
                 break
             }
 
-            print("break1 : $value2 | ")
+            print("$value:$value2  ")
         }
     }
 
-    println("")
+    print("\n\n")
+
+    print("\nbreak2 :\n")
 
     returnLabel@ for (value in 1..50) {
-        for (value2 in 0..10) {
-            if (value2 == 5) {
+        for (value2 in 0..100) {
+            if (value2 == 20) {
                 break@returnLabel
             }
 
-            print("break2 : $value2 | ")
+            print("$value:$value2  ")
         }
     }
 }
