@@ -1,4 +1,4 @@
-package p2_basics.loop
+package unit2_basics.loop
 
 fun main() {
 
