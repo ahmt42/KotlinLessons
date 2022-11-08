@@ -115,7 +115,8 @@ open class A {
 
 class B : A() {
     override fun foo(i: Int) { /*...*/
-    }  // no default value allowed
+    }
+    // no default value allowed
 }
 
 
