@@ -109,12 +109,14 @@ fun print(message: String = "Message") {
  * **/
 
 open class A {
-    open fun foo(i: Int = 10) { /*...*/
+    open fun foo(i: Int = 10) {
+        /*...*/
     }
 }
 
 class B : A() {
-    override fun foo(i: Int) { /*...*/
+    override fun foo(i: Int) {
+        /*...*/
     }
     // no default value allowed
 }
