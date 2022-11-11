@@ -12,7 +12,7 @@ fun main() {
 }
 
 /**
- *    Fonksiyon icersinde fonksiyon tanimi kotlin'de yapilabir. Bu fonksiyonlara Local Functions denir. (yazdiginiz fonksiyonun kendi sinifinizdan dahi cagrilmasini istemeyebilirsiniz)
+ *    Fonksiyon icerisinde fonksiyon tanimi kotlin'de yapilabir. Bu fonksiyonlara Local Functions denir. (yazdiginiz fonksiyonun kendi sinifinizdan dahi cagrilmasini istemeyebilirsiniz)
  *    Bu fonksiyonunun herhangi bir baska fonksiyon ya da sinif icin degistirilmesini istemeyebilirsiniz. (private)
  *    Reflection ile fonksiyonlariniz erisilirken gizli kalsin isteyebilirsiniz.
  *    Bu gibi durumlarda bu cok onemli fonksiyonunuzu baska bir fonksiyon icerisine yazabilirsiniz.
@@ -48,7 +48,7 @@ fun calculateAtomPhysics() {
 }
 
 /**
- *      Bir sinifin icersindeki fonksiyonlara, uye fonksiyonlar denir.
+ *    Bir sinifin icersindeki fonksiyonlara, uye fonksiyonlar denir.
  * **/
 class Car {
     fun setColor(colorCodeId: Int) {
@@ -58,7 +58,7 @@ class Car {
 
 
 /**
- *      Bir fonksiyon Generic tip aliyorsa, Generic Function olarak adlandirilir.
+ *    Bir fonksiyon Generic tip aliyorsa, Generic Function olarak adlandirilir.
  * **/
 fun <T> setColor(colorCodeId: T) {
 
