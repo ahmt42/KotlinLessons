@@ -191,6 +191,7 @@ fun getUserInfo3(vararg userInfo: Any) {
 
 val userList = arrayOfNulls<String>(5)
 
+
 /**
  *      geri donus tipi Unit degil ise, return edecegimiz bir beklenen tipte (ornekte Int) verimiz olmali ve return edecegimiz sey tek satir ise bu durumda = koyularak return edecegi deger yazilir.
  *		buna fonksiyonlar icin Expression kullanimi denir.
