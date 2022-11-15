@@ -55,7 +55,7 @@ class AwesomeClass {
 
     }
      */
-// default deger 'den dolayı calismaz.
+    // default deger 'den dolayı calismaz.
 
 
     infix fun downloadImage(imageUrl: String) {
@@ -66,34 +66,37 @@ class AwesomeClass {
         return 4
     }
 
-// Calismaz. Comment'i kaldir kontrol et istersen keko
-//    infix fun <T> downloadImage2(vararg mageUrl : T){
-//
-//    }
-// vararg 'dan dolayı calismaz
+
+    /*
+    infix fun <T> downloadImage2(vararg mageUrl : T){
+
+    }
+     */
+    // vararg 'dan dolayı calismaz
+
 
     // bir sinifin icindeyken this kullanimi size bulundugu sinifi isaret eder.
-// asagidaki kullanimda AwesomeClass().downloadImage(imageUrl) kullanimi olusur aslinda. (implicit)
+    // asagidaki kullanimda AwesomeClass().downloadImage(imageUrl) kullanimi olusur aslinda. (implicit)
     fun logWhenImageDownloaded(imageUrl: String) {
         // calisir, dogru kullanim. infix kullanım değil ama.
         downloadImage(imageUrl)
 
         // calismaz, infix fonksiyonu bu sekil cagrilamaz.
-//  downloadImage imageUrl
-
+        // downloadImage imageUrl
 
         this downloadImage imageUrl
-//  AwesomeClass() downloadImage imageUrl
+        // AwesomeClass() downloadImage imageUrl
     }
 
 
 // this; class'ın içerisindeyken kullanıyorsak class'ı, interface'lerin içerisinde kullanıyorsak da interface'i verir.
-// eğer bir infix fonksiyonu bağlı bulunduğu class'ın içerisinde infix gibi kullanmak istiyorsanız bu durumda "this fonksiyonun ismi parametresi"ni vermeniz lazım, "direk fonksiyonun ismi parametre" olarak çağıramıyorsunuz.
+// eğer bir infix fonksiyonu bağlı bulunduğu class'ın içerisinde infix gibi kullanmak istiyorsanız bu durumda "this fonksiyonun ismi parametresi"ni vermeniz lazım, "direk fonksiyonun ismi parametre" olarak çağıramayız.
 
-    // bir sinifin disindayken infix method cagirimi yapilirsa this kullanilamaz.
-    fun logWhenImageDownloaded(imageUrl: String) {
-        // logWhenImageDownloaded fonksiyonu class disinda oldugu icin (alttaki this) calısmaz.
-//    this downloadImage imageUrl
-    }
+}
 
+
+// bir sinifin disindayken infix method cagirimi yapilirsa this kullanilamaz.
+fun logWhenImageDownloaded(imageUrl: String) {
+    // logWhenImageDownloaded fonksiyonu class disinda oldugu icin (alttaki this) calısmaz.
+    // this downloadImage imageUrl
 }
