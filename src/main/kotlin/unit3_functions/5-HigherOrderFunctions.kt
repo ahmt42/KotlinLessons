@@ -3,6 +3,30 @@ package unit3_functions
 import java.util.*
 import kotlin.concurrent.schedule
 
+
+/*
+fun main(args: Array<String>) {
+    printName("Ahmet")
+
+    printTotalName("${printName("Ahmet")}")
+    printTotalName("String")
+    printTotalName({
+        return  "Ad : $name"
+    })
+}
+
+
+fun printName(name: String): String{
+    return  "Ad : $name"
+}
+
+fun printTotalName(totalName: String){
+    println(totalName)
+}
+*/
+
+
+
 /**
  *      Fonksiyon'lar Kotlin'de "First Class Citizen"dır.
  *      Yani degiskenlere deger olarak atanabilir, baska fonksiyonlara parametre olarak verilebilir ya da bir fonksiyonunn geri donus degeri olabilir.
