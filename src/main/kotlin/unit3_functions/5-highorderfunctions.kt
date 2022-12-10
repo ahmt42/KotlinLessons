@@ -151,9 +151,9 @@ fun main() {
     /* -------------------------------------------------------------------------------------------------------------------*/
 
     /**
-     *      Eger bir fonksiyon parametreleri icerisinde bir Higher Order Function son parametre olarak tanimlandiysa, bu durumda
-     *      -isteniyorsa, bu Higher Order Function, fonksiyon parametrelerinin disina da yazilabilir. Daha temiz bir kullanim
-     *      yapmis oluruz.
+     *      Eger bir fonksiyon parametreleri icerisinde bir Higher Order Function son parametre olarak tanimlandiysa,
+     *      bu durumda, isteniyorsa, bu Higher Order Function, fonksiyon parametrelerinin disina da yazilabilir.
+     *      Daha temiz bir kullanim yapmis oluruz.
      */
     val newsType = NewsType()
     news.getNewsFromServer("FoxTv", newsType, {
@@ -168,8 +168,8 @@ fun main() {
 
     /**
      *      Higher Order Function birde fazla parametre iceriyorsa, aralarina virgul koyarak lambda isareti ile tanimlamak zorunlu.
-     *      Tek parametreye sahipse bu durumda parametre ismi ve lambda isareti koyulmayabilir. Bu durumda ilgili parametre "it"
-     *      kelimesi ile cagrilabilecektir.
+     *      Tek parametreye sahipse bu durumda parametre ismi ve lambda isareti koyulmayabilir.
+     *      Bu durumda ilgili parametre "it" kelimesi ile cagrilabilecektir.
      *      Eger bir fonksiyon, parametre olarak sadece Higher Order Function aliyorsa bu durumda fonksiyon parantezlerini hic yazmayabilirsiniz.
      */
     news.filterNews { filterType, getFilterName ->
