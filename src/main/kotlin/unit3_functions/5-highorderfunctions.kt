@@ -139,7 +139,7 @@ fun main() {
         return "surName : $surName"
     }, getAge())
 
-    // Suslu parantezler (body) direkt olarak Higher Order Function'in parametre olarak beklendigi alana da yazilabilir.
+    // Suslu parantezler (body) direkt olarak Higher Order Function'un parametre olarak beklendigi alana da yazilabilir.
     printUserInfo(getName(), {
         "surname : $it"
     }, getAge())
@@ -299,8 +299,8 @@ infix fun News.filterNews(getFilter: (filterType: String, getFilterName: () -> S
     getFilter("filterName", ::getFilterNameHO3) //3. yontem
 }
 
-fun News.read(readTitle: (title: String) -> Unit) {   //higher orderi parametre olarak alan extension function infixte yapabiliriz
+fun News.read(readTitle: (title: String) -> Unit) {   //higher orderi parametre olarak alan extension function infix de yapabiliriz
     readTitle("Codemy is Awesome")
 }
 
-//Bir fonksiyonun calisabilmesi icin cagrilmasi gerekiyor. Higher order functionda cagrilmazsa calismaz.
+// Bir fonksiyonun calisabilmesi icin cagrilmasi gerekiyor. Higher order function da cagrilmazsa calismaz.
