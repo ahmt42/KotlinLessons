@@ -44,7 +44,7 @@ fun main() {
 
     /**
      *      Fonksiyon'lar Kotlin'de "First Class Citizen"dır.
-     *      Yani degiskenlere deger olarak atanabilir, baska fonksiyonlara parametre olarak verilebilir ya da bir fonksiyonunn geri donus degeri olabilir demektir.
+     *      Yani degiskenlere deger olarak atanabilir, baska fonksiyonlara parametre olarak verilebilir ya da bir fonksiyonun geri donus degeri olabilir demektir.
      *
      *      Higher Order Function'lar basitce bir fonksiyona parametre olarak verilen fonksiyonlardır.
      *      Parametre olarak verilmekten kasit, fonksiyonun cagriminin parametre kisminda yapilmasi degil,
@@ -181,7 +181,7 @@ fun main() {
 
 // Normal Fonksiyon
 fun getName(): String {
-    return "Gökhan"
+    return "Ahmet"
 }
 
 // Normal Fonksiyon, expression kullanima ornek
@@ -210,7 +210,6 @@ fun getItemClickListener(onClick: (String) -> Unit) {
     println("Tiklama islemi baslatiliyor")
 
     Timer().schedule(3000) {
-
         // Bir higher order function, parametre olarak yazildiktan sonra, bu parametrenin normal fonksiyon icerisinde
         // cagirilmasi gerekmektedir. Aksi halde bu higher order fonksiyonu tanimlamak mantiksiz olur. Normal fonksiyonunun
         // cagrildigi alandaki higher order function'in body kismi hicbir zaman cagrilmaz demek olur.
