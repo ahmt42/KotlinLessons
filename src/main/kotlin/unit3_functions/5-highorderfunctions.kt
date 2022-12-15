@@ -167,7 +167,7 @@ fun main() {
     /* -------------------------------------------------------------------------------------------------------------------*/
 
     /**
-     *      Higher Order Function birde fazla parametre iceriyorsa, aralarina virgul koyarak lambda isareti ile tanimlamak zorunlu.
+     *      Higher Order Function birden fazla parametre iceriyorsa, aralarina virgul koyarak lambda isareti ile tanimlamak zorunlu.
      *      Tek parametreye sahipse bu durumda parametre ismi ve lambda isareti koyulmayabilir.
      *      Bu durumda ilgili parametre "it" kelimesi ile cagrilabilecektir.
      *      Eger bir fonksiyon, parametre olarak sadece Higher Order Function aliyorsa bu durumda fonksiyon parantezlerini hic yazmayabilirsiniz.
