@@ -56,7 +56,7 @@ fun main() {
      *          some business logics
      *          some business logics
      *          some business logics
-     *          higherOrderFunction("Codemy")
+     *          higherOrderFunction("Code")
      *      }
      *
      *      Cagrilirken ;
