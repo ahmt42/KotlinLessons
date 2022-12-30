@@ -1,4 +1,4 @@
-package unit2_basics.loop
+package kekod.unit2_basics.loop
 
 fun main() {
 

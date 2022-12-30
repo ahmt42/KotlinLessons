@@ -1,4 +1,4 @@
-package unit3_functions
+package kekod.unit3_functions
 
 /**
  *      fonksiyonlar fun keyword'u ile baslar. fonksiyon ismi verilir.

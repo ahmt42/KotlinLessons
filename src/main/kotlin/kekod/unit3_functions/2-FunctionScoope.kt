@@ -1,4 +1,4 @@
-package unit3_functions
+package kekod.unit3_functions
 
 /**
  *    Bir fonksiyon herhangi bir sinifin icerisinde degil de bir dosyasinin icersinde boslukta tanimlaniyorsa, top level function adini alir.

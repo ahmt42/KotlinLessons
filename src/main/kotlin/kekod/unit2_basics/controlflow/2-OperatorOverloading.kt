@@ -1,4 +1,4 @@
-package unit2_basics.controlflow
+package kekod.unit2_basics.controlflow
 
 data class PairNumber(val numberOne: Int, val numberTwo: Int) {
 
