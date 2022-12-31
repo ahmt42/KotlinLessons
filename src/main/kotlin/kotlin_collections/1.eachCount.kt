@@ -12,7 +12,7 @@ fun main() {
     val groupByCount = list.groupingBy { it }.eachCount()
     println(groupByCount)
 
-    // Bir metin dizisinde kelime sayısını hesaplayın. Her kelimeyi tekrar edenleri ayırarak kelime sayısını hesaplayın.
+    // Bir metin dizisinde kelime sayısını hesaplama. Her kelimeyi tekrar edenleri ayırarak kelime sayısını hesaplama.
 
     val words = "Başarılı bir mühendis olarak, yaptığım projelerde en önemli şeyin kalite ve doğruluk olduğunu düşünüyorum, bu yüzden her zaman en iyi malzemeleri ve en yeni teknolojik araçları kullanmaya çalışıyorum, ancak aynı zamanda tasarım esnekliği ve maliyet etkinliğini de dikkate alarak, müşteri beklentilerini karşılamaya çalışıyorum."
         .split(' ')
