@@ -17,7 +17,7 @@ fun main () {
     // {false=36, true=30}
 
 
-    // İlk harfine göre gruplandır ve Harf sayısı çift alan öğeleri al :
+    // şehirleri ilk harflerine göre grupla ve yalnızca harf sayısı çift olan şehirleri al :
 
     val cities = listOf("Ankara", "Adana", "İstanbul", "İzmir", "Konya", "Kayseri", "Kütahya", "Bursa", "Denizli")
 
