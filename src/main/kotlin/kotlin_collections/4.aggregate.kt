@@ -27,7 +27,7 @@ fun main() {
 
     /*
     Bu kod, 0 ve 99 arasında (dahil) 10 tane rastgele tamsayı üretir ve sonra liste elemanlarını 3'e bölümünden kalan ile gruplar.
-    groupingBy fonksiyonu, kalanların anahtarlar olduğu ve o kalanların elemanların listesi olan bir harita döndürür.
+    groupingBy fonksiyonu, kalanların anahtarlar olduğu ve o kalanların elemanların listesi olan bir map döndürür.
 
     Sonra, aggregate fonksiyonu kullanılarak, anahtarların kalanlar ve değerlerin liste elemanlarını temsil eden dizgiler olan yeni bir map oluşturulur.
     aggregate fonksiyonu, liste elemanlarını bir şekilde birleştiren bir lambda fonksiyonu alır.
