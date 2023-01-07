@@ -7,6 +7,7 @@ fun main() {
 
     val peopleByAge = people.groupingBy { it.age }
     val peopleByAge2 = people.groupBy { it.age }
+    println(peopleByAge.eachCount())
     println(peopleByAge2)  // Output: {25=[Person(name=Alice, age=25)], 31=[Person(name=Bob, age=31), Person(name=Charlie, age=31)]}
 
     //
@@ -17,13 +18,14 @@ fun main() {
         Task("Take out the trash", true),
         Task("Do homework", false),
         Task("Watch TV", true),
-        Task("Go to the gym", false)
+        Task("Go to the gym", false),
+        Task("Go to the cinema", true)
     )
 
     val taskByStatusCount = tasks.groupingBy { it.completed }.eachCount()
     val taskByStatus = tasks.groupBy ({ it.completed }, { it.name })
 
-    println(taskByStatus)
     println(taskByStatusCount)
+    println(taskByStatus)
 
 }
