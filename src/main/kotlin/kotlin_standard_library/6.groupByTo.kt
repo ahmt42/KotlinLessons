@@ -1,4 +1,4 @@
-package kotlin_collections
+package kotlin_standard_library
 
 
 fun main() {

@@ -1,4 +1,4 @@
-package kotlin_collections
+package kotlin_standard_library
 
 fun main() {
     data class Person(val name: String, val age: Int)

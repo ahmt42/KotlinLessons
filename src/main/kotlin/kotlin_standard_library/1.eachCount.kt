@@ -1,4 +1,4 @@
-package kotlin_collections
+package kotlin_standard_library
 
 /**
  * Kotlin eachCount, Grouping kaynağındaki elemanları anahtarına göre gruplar ve her grup içindeki elemanları sayar.  ve sonuç olarak bir Grouping nesnesi döndürür.

@@ -1,4 +1,4 @@
-package kotlin_collections
+package kotlin_standard_library
 
 /**
  * "fold" işleminin amacı, bir gruplama kaynağındaki öğeleri anahtarına göre gruplandırmak ve her grup öğesi için işlemi sırasıyla uygulamaktır.
