@@ -17,5 +17,3 @@ fun main() {
     println("Drop last 3 chars : $withoutLastThreeChars")
     println("Drop last 10 chars : $withoutLastTenChars")
 }
-
-//
